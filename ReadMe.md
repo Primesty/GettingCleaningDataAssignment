@@ -61,19 +61,4 @@ The run_analysis.R script merges data from a number of .txt files and produces a
 
 A description of the "tidy_smartphone_activity_data.txt" file can be found in the "CodeBook.md" file.
 
-Acknowledgements:
-
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
-
-License:
-
-Use of the run_analysis.R script is free for all users.
-
-Use of the resulting dataset "tidy_smartphone_activity_data.txt" in publications must be acknowledged by referencing:
-
-Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using 
-a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
-
-Disclaimer: This dataset is distributed AS-IS! The author does not take any responsibility for another user's use or misuse!!
-Any commercial use is prohibited.
 
