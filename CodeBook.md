@@ -4,19 +4,22 @@
 
 CODE BOOK - tidy_smartphone_data.txt
 
-Feature Selection
+Feature Selection for the tidy dataset
 
-The features selected for this data frame came from the transformation of the data in the "Human Activity Recognition Using Smartphones Dataset Version 1.0", 
-which in turn have been taken from experiments carried out with a group of 30 volunteers within an age bracket of 19-48 years. 
-Each person performed six activities (WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING) wearing a smartphone (Samsung Galaxy S II) on the waist. 
-Using its embedded accelerometer and gyroscope, 3-axial linear acceleration and 3-axial angular velocity at a constant rate of 50Hz data were captured, 
-of accelerometer and gyroscope 3-axial raw signals tAcc-XYZ and tGyro-XYZ.
+The features selected for this data frame came from the transformation of the data in the "Human Activity Recognition Using Smartphones Dataset Version 1.0".
+
+The data were gleaned by having 30 volunteers (ages 19-48) wear a smartphone (Samsung Galaxy S II) and perform six activities:
+
+WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
+
+The built-in accelerometer and gyroscope were used to capture a 3-axial angular velocity at a constant rate of 50Hz (raw signals: tAcc-XYZ, tGyro-XYZ).
 
 These signals were used to estimate variables of the feature vector for each pattern:
 '-XYZ' is used to denote 3-axial signals in the X, Y and Z directions.
 
 tBodyAcc-XYZ tGravityAcc-XYZ tBodyAccJerk-XYZ tBodyGyro-XYZ tBodyGyroJerk-XYZ tBodyAccMag tGravityAccMag 
-tBodyAccJerkMag tBodyGyroMag tBodyGyroJerkMag fBodyAcc-XYZ fBodyAccJerk-XYZ fBodyGyro-XYZ fBodyAccMag fBodyAccJerkMag fBodyGyroMag fBodyGyroJerkMag
+tBodyAccJerkMag tBodyGyroMag tBodyGyroJerkMag fBodyAcc-XYZ fBodyAccJerk-XYZ 
+fBodyGyro-XYZ fBodyAccMag fBodyAccJerkMag fBodyGyroMag fBodyGyroJerkMag
 
 angle(): Angle between two vectors.
 
@@ -24,7 +27,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
 
-Feature Vector variables:
+### Feature Vector variables:
 
 mean() : mean values of multiple measurements of the original variables. Type: Real number
 
