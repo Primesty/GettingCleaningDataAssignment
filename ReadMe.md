@@ -11,6 +11,7 @@ and produces a tidy dataset, which can then be used for further analysis.
 
 The data in the "Human Activity Recognition Using Smartphones Dataset Version 1.0" were produced by
 a group of 30 volunteers (ages 19 - 48).
+
 Each person performed six activities: WALKING, WALKING_UPSTAIRS, WALKING_DOWNSTAIRS, SITTING, STANDING, LAYING
 wearing a smartphone (Samsung Galaxy S II) on the waist. 
 
@@ -62,14 +63,11 @@ License:
 
 Use of the run_analysis.R script is free for all users.
 
-Use of the resulting dataset "tidy_smartphone_activity_data.txt" in publications must be acknowledged by referencing the following publication [1]
+Use of the resulting dataset "tidy_smartphone_activity_data.txt" in publications must be acknowledged by referencing:
 
-[1] Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using 
-a Multiclass Hardware-Friendly Support Vector Machine. 
-International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and Jorge L. Reyes-Ortiz. Human Activity Recognition on Smartphones using 
+a Multiclass Hardware-Friendly Support Vector Machine. International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
 
-Disclaimer: This dataset is distributed AS-IS and no responsibility implied or explicit can be addressed to the author for its use or misuse. 
+Disclaimer: This dataset is distributed AS-IS! The author does not take any responsibility for another user's use or misuse!!
 Any commercial use is prohibited.
-
-Matthias Raess, July 2016
 
