@@ -27,7 +27,7 @@ Additional vectors obtained by averaging the signals in a signal window sample. 
 
 gravityMean tBodyAccMean tBodyAccJerkMean tBodyGyroMean tBodyGyroJerkMean
 
-## Feature vector variables:
+## Variables in the tidy dataset:
 
 mean() : mean values of multiple measurements of the original variables. Type: Real number
 
