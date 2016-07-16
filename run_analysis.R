@@ -58,8 +58,10 @@ names(data_combined) <- tolower(names(data_combined))
 ## Keep only columns refering to mean() or sd() values
 mean_col_index <- grep("mean",names(data_combined)) # we could also have used ignore.case = TRUE
 mean_col_names <- names(data_combined)[mean_col_idx]
+
 sd_col_index <- grep("std",names(data_combined))
 sd_col_names <- names(data_combined)[sd_col_idx]
+
 data_mean_sd <-data_combined[,c("subject_id","activity_id",mean_col_names,sd_col_names)]
  
 ## Merge the activities dataset with the mean/sd values dataset to get descriptive activity names
