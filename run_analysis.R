@@ -1,11 +1,5 @@
 
- #### Coursera - Getting and Cleaning Data - Assignment ####
-
-### Project based on: Davide Anguita, Alessandro Ghio, Luca Oneto, Xavier Parra and 
-# Jorge L. Reyes-Ortiz publication,
-
-# "Human Activity Recognition on Smartphones using a Multiclass Hardware-Friendly Support Vector Machine".
-# International Workshop of Ambient Assisted Living (IWAAL 2012). Vitoria-Gasteiz, Spain. Dec 2012
+#### Coursera - Getting and Cleaning Data - Assignment ####
 
 ## This script merges data from a number of .txt files, produces a tidy dataset accordiing to the tidy
 # data convention, and thus prepares the data for further analysis.
@@ -77,7 +71,7 @@ data_mean_sd <-data_combined[,c("subject_id","activity_id",mean_col_names,sd_col
 ## Merge the activities dataset with the mean/sd values dataset to get descriptive activity names
 
 descr_act_names <- merge(activity_labels,data_mean_sd,by.x="activity_id",by.y="activity_id",all=TRUE)
- 
+
 ## Melt the dataset with the descriptive activity names for better handling
 
 library(reshape2)
@@ -92,5 +86,4 @@ mean_data <- dcast(data_melt,activity_id + activity_name + subject_id ~ variable
 
 ## Create a file with the new tidy dataset
 
-write.table(mean_data,"./tidy_movement_data.txt", row.names = FALSE)
- 
+write.table(mean_data,"./tidy_smartphone_activity_data.txt", row.names = FALSE)
