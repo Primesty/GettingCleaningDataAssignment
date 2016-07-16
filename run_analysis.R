@@ -19,29 +19,23 @@ feature_names <- features[,2]
  
 ## Read in test data and label dataframe's columns
  
-test_data <- read.table("./test/X_test.txt")
-names(test_data) <- feature_names # alternative colnames()
+test_data <- read.table("./test/X_test.txt"); names(test_data) <- feature_names # alternative colnames()
  
 ## Read in training data and label dataframe's columns
  
-train_data <- read.table("./train/X_train.txt")
-names(train_data) <- feature_names
+train_data <- read.table("./train/X_train.txt"); names(train_data) <- feature_names
  
 ## Read in ids of the test subjects and label the the dataframe's columns
-test_subject_id <- read.table("./test/subject_test.txt")
-colnames(test_subject_id) <- "subject_id"
+test_subject_id <- read.table("./test/subject_test.txt"); names(test_subject_id) <- "subject_id"
  
 ## Read in activity id's of the test data and label the the dataframe's columns
-test_activity_id <- read.table("./test/y_test.txt")
-colnames(test_activity_id) <- "activity_id"
+test_activity_id <- read.table("./test/y_test.txt"); names(test_activity_id) <- "activity_id"
  
 ## Read in ids of the train subjects and label the the dataframe's columns
-train_subject_id <- read.table("./train/subject_train.txt")
-colnames(train_subject_id) <- "subject_id"
+train_subject_id <- read.table("./train/subject_train.txt"); names(train_subject_id) <- "subject_id"
  
 ## Read in activity id's of the training data and label the dataframe's columns
-train_activity_id <- read.table("./train/y_train.txt")
-colnames(train_activity_id) <- "activity_id"
+train_activity_id <- read.table("./train/y_train.txt"); names(train_activity_id) <- "activity_id"
  
 ### STAGE II ### We now start building a combinded, tidy dataframe from the files we have read in
  
